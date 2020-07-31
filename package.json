@@ -1,0 +1,25 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node index.js"
+  },
+  "author": "PankajBhagat",
+  "license": "ISC",
+  "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.3",
+    "@okta/oidc-middleware": "^4.0.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.9.26",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "handlebars": "^4.7.6"
+  }
+}
